@@ -1,6 +1,6 @@
 # Site settings
 title: Vancouver Joint Statistics Seminar
-tag_text: vanjss
+tag_text: Vancouver Joint Statistics Seminar
 description: Information about the SFU-UBC Joint Statistics Seminar
 url: "http://127.0.0.1:4000"
 baseurl: ""
