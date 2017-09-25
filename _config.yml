@@ -1,13 +1,18 @@
-# Site settings
-title: Vancouver Joint Statistics Seminar
-tag_text: Vancouver Joint Statistics Seminar
-description: Information about the SFU-UBC Joint Statistics Seminar
-url: "http://vanjss.ca"
-baseurl: ""
+# Dependencies
+plugins: [jekyll-paginate]
 
-font-awesome-include: true # make this false if you don't need font-awesome
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-# Build settings
-markdown: kramdown
+# Setup
+title:               Vancouver Joint Statistics Seminar
+description:         A semi-annual Joint Statistics Seminar between Simon Fraser University and the University of British Columbia
+url:                 http://vanjss.ca
+baseurl:             ''
+paginate:            5
 
-exclude: ["README.md"]
+
+# Custom vars
+version:             1.0.0
